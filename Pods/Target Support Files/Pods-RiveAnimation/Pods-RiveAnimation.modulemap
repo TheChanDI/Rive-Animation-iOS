@@ -1,0 +1,6 @@
+framework module Pods_RiveAnimation {
+  umbrella header "Pods-RiveAnimation-umbrella.h"
+
+  export *
+  module * { export * }
+}
