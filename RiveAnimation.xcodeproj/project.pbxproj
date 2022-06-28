@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2AE45646AB54604EA409D79B /* Pods_RiveAnimation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1868A3CBD19A6EAFBA11976 /* Pods_RiveAnimation.framework */; };
+		7F589BAC285893E2005ED6AE /* CustomFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F589BAB285893E2005ED6AE /* CustomFont.swift */; };
+		7F589BB028589B1F005ED6AE /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F589BAF28589B1F005ED6AE /* SignInView.swift */; };
+		7F6A94662859D5CB00F45F99 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F6A94652859D5CB00F45F99 /* CustomTextField.swift */; };
+		7F943EA8286AE2670006E984 /* View+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F943EA7286AE2670006E984 /* View+Extension.swift */; };
+		7F943EAA286AE43E0006E984 /* Color+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F943EA9286AE43E0006E984 /* Color+Extension.swift */; };
+		7F995480285878CF00E5EDAF /* Inter-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7F99547D285878CF00E5EDAF /* Inter-Regular.ttf */; };
+		7F995481285878CF00E5EDAF /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7F99547E285878CF00E5EDAF /* Poppins-Bold.ttf */; };
+		7F995482285878CF00E5EDAF /* Inter-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7F99547F285878CF00E5EDAF /* Inter-SemiBold.ttf */; };
 		7FDFFD33284E42C400BDC636 /* RiveAnimationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FDFFD32284E42C400BDC636 /* RiveAnimationApp.swift */; };
 		7FDFFD35284E42C400BDC636 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FDFFD34284E42C400BDC636 /* ContentView.swift */; };
 		7FDFFD37284E42C600BDC636 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7FDFFD36284E42C600BDC636 /* Assets.xcassets */; };
@@ -18,11 +27,20 @@
 		7FDFFD4C284E446800BDC636 /* shapes.riv in Resources */ = {isa = PBXBuildFile; fileRef = 7FDFFD45284E446800BDC636 /* shapes.riv */; };
 		7FDFFD4D284E446800BDC636 /* button.riv in Resources */ = {isa = PBXBuildFile; fileRef = 7FDFFD46284E446800BDC636 /* button.riv */; };
 		7FDFFD4E284E446800BDC636 /* icons.riv in Resources */ = {isa = PBXBuildFile; fileRef = 7FDFFD47284E446800BDC636 /* icons.riv */; };
-		7FDFFD51284E45A900BDC636 /* RiveRuntime in Frameworks */ = {isa = PBXBuildFile; productRef = 7FDFFD50284E45A900BDC636 /* RiveRuntime */; };
 		7FDFFD53284E45C400BDC636 /* OnBoardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FDFFD52284E45C400BDC636 /* OnBoardingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0C2D2196B7D575F8B59C109B /* Pods-RiveAnimation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RiveAnimation.release.xcconfig"; path = "Target Support Files/Pods-RiveAnimation/Pods-RiveAnimation.release.xcconfig"; sourceTree = "<group>"; };
+		7F589BA828588D9C005ED6AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		7F589BAB285893E2005ED6AE /* CustomFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomFont.swift; sourceTree = "<group>"; };
+		7F589BAF28589B1F005ED6AE /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
+		7F6A94652859D5CB00F45F99 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		7F943EA7286AE2670006E984 /* View+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extension.swift"; sourceTree = "<group>"; };
+		7F943EA9286AE43E0006E984 /* Color+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extension.swift"; sourceTree = "<group>"; };
+		7F99547D285878CF00E5EDAF /* Inter-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Regular.ttf"; sourceTree = "<group>"; };
+		7F99547E285878CF00E5EDAF /* Poppins-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Bold.ttf"; sourceTree = "<group>"; };
+		7F99547F285878CF00E5EDAF /* Inter-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-SemiBold.ttf"; sourceTree = "<group>"; };
 		7FDFFD2F284E42C400BDC636 /* RiveAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RiveAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7FDFFD32284E42C400BDC636 /* RiveAnimationApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RiveAnimationApp.swift; sourceTree = "<group>"; };
 		7FDFFD34284E42C400BDC636 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -36,6 +54,8 @@
 		7FDFFD46284E446800BDC636 /* button.riv */ = {isa = PBXFileReference; lastKnownFileType = file; path = button.riv; sourceTree = "<group>"; };
 		7FDFFD47284E446800BDC636 /* icons.riv */ = {isa = PBXFileReference; lastKnownFileType = file; path = icons.riv; sourceTree = "<group>"; };
 		7FDFFD52284E45C400BDC636 /* OnBoardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingView.swift; sourceTree = "<group>"; };
+		B1868A3CBD19A6EAFBA11976 /* Pods_RiveAnimation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RiveAnimation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1EE27B578BDB25219026EBB /* Pods-RiveAnimation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RiveAnimation.debug.xcconfig"; path = "Target Support Files/Pods-RiveAnimation/Pods-RiveAnimation.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,18 +63,72 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7FDFFD51284E45A900BDC636 /* RiveRuntime in Frameworks */,
+				2AE45646AB54604EA409D79B /* Pods_RiveAnimation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2AEAE494AE60B36517B31A4D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E1EE27B578BDB25219026EBB /* Pods-RiveAnimation.debug.xcconfig */,
+				0C2D2196B7D575F8B59C109B /* Pods-RiveAnimation.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		7F589BAD28589AF8005ED6AE /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				7F589BAE28589B07005ED6AE /* Signin */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		7F589BAE28589B07005ED6AE /* Signin */ = {
+			isa = PBXGroup;
+			children = (
+				7F589BAF28589B1F005ED6AE /* SignInView.swift */,
+			);
+			path = Signin;
+			sourceTree = "<group>";
+		};
+		7F6A94642859D5B900F45F99 /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				7F6A94652859D5CB00F45F99 /* CustomTextField.swift */,
+			);
+			path = Component;
+			sourceTree = "<group>";
+		};
+		7F6A94672859DA7C00F45F99 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				7F943EA7286AE2670006E984 /* View+Extension.swift */,
+				7F943EA9286AE43E0006E984 /* Color+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		7F99547C285878CF00E5EDAF /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				7F99547D285878CF00E5EDAF /* Inter-Regular.ttf */,
+				7F99547E285878CF00E5EDAF /* Poppins-Bold.ttf */,
+				7F99547F285878CF00E5EDAF /* Inter-SemiBold.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
 		7FDFFD26284E42C400BDC636 = {
 			isa = PBXGroup;
 			children = (
 				7FDFFD31284E42C400BDC636 /* RiveAnimation */,
 				7FDFFD30284E42C400BDC636 /* Products */,
+				2AEAE494AE60B36517B31A4D /* Pods */,
+				CEB8BF36B209853F81212C0F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -69,12 +143,18 @@
 		7FDFFD31284E42C400BDC636 /* RiveAnimation */ = {
 			isa = PBXGroup;
 			children = (
+				7F6A94672859DA7C00F45F99 /* Extensions */,
+				7F6A94642859D5B900F45F99 /* Component */,
+				7F99547C285878CF00E5EDAF /* Fonts */,
+				7F589BA828588D9C005ED6AE /* Info.plist */,
 				7FDFFD32284E42C400BDC636 /* RiveAnimationApp.swift */,
 				7FDFFD34284E42C400BDC636 /* ContentView.swift */,
 				7FDFFD36284E42C600BDC636 /* Assets.xcassets */,
+				7F589BAD28589AF8005ED6AE /* Modules */,
 				7FDFFD40284E446800BDC636 /* RiveAssets */,
 				7FDFFD38284E42C600BDC636 /* Preview Content */,
 				7FDFFD52284E45C400BDC636 /* OnBoardingView.swift */,
+				7F589BAB285893E2005ED6AE /* CustomFont.swift */,
 			);
 			path = RiveAnimation;
 			sourceTree = "<group>";
@@ -101,6 +181,14 @@
 			path = RiveAssets;
 			sourceTree = "<group>";
 		};
+		CEB8BF36B209853F81212C0F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B1868A3CBD19A6EAFBA11976 /* Pods_RiveAnimation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -108,18 +196,17 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7FDFFD3D284E42C600BDC636 /* Build configuration list for PBXNativeTarget "RiveAnimation" */;
 			buildPhases = (
+				A0099ABD5A605637ABF383A1 /* [CP] Check Pods Manifest.lock */,
 				7FDFFD2B284E42C400BDC636 /* Sources */,
 				7FDFFD2C284E42C400BDC636 /* Frameworks */,
 				7FDFFD2D284E42C400BDC636 /* Resources */,
+				3EB1E861313B5BFDF7AE57CD /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = RiveAnimation;
-			packageProductDependencies = (
-				7FDFFD50284E45A900BDC636 /* RiveRuntime */,
-			);
 			productName = RiveAnimation;
 			productReference = 7FDFFD2F284E42C400BDC636 /* RiveAnimation.app */;
 			productType = "com.apple.product-type.application";
@@ -148,9 +235,6 @@
 				Base,
 			);
 			mainGroup = 7FDFFD26284E42C400BDC636;
-			packageReferences = (
-				7FDFFD4F284E45A900BDC636 /* XCRemoteSwiftPackageReference "rive-ios" */,
-			);
 			productRefGroup = 7FDFFD30284E42C400BDC636 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -165,12 +249,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7F995482285878CF00E5EDAF /* Inter-SemiBold.ttf in Resources */,
 				7FDFFD4C284E446800BDC636 /* shapes.riv in Resources */,
 				7FDFFD4A284E446800BDC636 /* check.riv in Resources */,
 				7FDFFD3A284E42C600BDC636 /* Preview Assets.xcassets in Resources */,
 				7FDFFD4B284E446800BDC636 /* menu_button.riv in Resources */,
 				7FDFFD48284E446800BDC636 /* house.riv in Resources */,
 				7FDFFD4D284E446800BDC636 /* button.riv in Resources */,
+				7F995480285878CF00E5EDAF /* Inter-Regular.ttf in Resources */,
+				7F995481285878CF00E5EDAF /* Poppins-Bold.ttf in Resources */,
 				7FDFFD37284E42C600BDC636 /* Assets.xcassets in Resources */,
 				7FDFFD49284E446800BDC636 /* confetti.riv in Resources */,
 				7FDFFD4E284E446800BDC636 /* icons.riv in Resources */,
@@ -179,14 +266,61 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3EB1E861313B5BFDF7AE57CD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RiveAnimation/Pods-RiveAnimation-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RiveAnimation/Pods-RiveAnimation-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RiveAnimation/Pods-RiveAnimation-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A0099ABD5A605637ABF383A1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RiveAnimation-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		7FDFFD2B284E42C400BDC636 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				7FDFFD53284E45C400BDC636 /* OnBoardingView.swift in Sources */,
+				7F589BAC285893E2005ED6AE /* CustomFont.swift in Sources */,
+				7F6A94662859D5CB00F45F99 /* CustomTextField.swift in Sources */,
 				7FDFFD35284E42C400BDC636 /* ContentView.swift in Sources */,
 				7FDFFD33284E42C400BDC636 /* RiveAnimationApp.swift in Sources */,
+				7F943EA8286AE2670006E984 /* View+Extension.swift in Sources */,
+				7F589BB028589B1F005ED6AE /* SignInView.swift in Sources */,
+				7F943EAA286AE43E0006E984 /* Color+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -309,6 +443,7 @@
 		};
 		7FDFFD3E284E42C600BDC636 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E1EE27B578BDB25219026EBB /* Pods-RiveAnimation.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -318,9 +453,11 @@
 				DEVELOPMENT_TEAM = RG62336UMN;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RiveAnimation/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
@@ -339,6 +476,7 @@
 		};
 		7FDFFD3F284E42C600BDC636 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C2D2196B7D575F8B59C109B /* Pods-RiveAnimation.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -348,9 +486,11 @@
 				DEVELOPMENT_TEAM = RG62336UMN;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RiveAnimation/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
@@ -389,25 +529,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCRemoteSwiftPackageReference section */
-		7FDFFD4F284E45A900BDC636 /* XCRemoteSwiftPackageReference "rive-ios" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/rive-app/rive-ios";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 2.0.0;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		7FDFFD50284E45A900BDC636 /* RiveRuntime */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 7FDFFD4F284E45A900BDC636 /* XCRemoteSwiftPackageReference "rive-ios" */;
-			productName = RiveRuntime;
-		};
-/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 7FDFFD27284E42C400BDC636 /* Project object */;
 }
