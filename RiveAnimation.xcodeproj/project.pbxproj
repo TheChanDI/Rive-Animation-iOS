@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		2AE45646AB54604EA409D79B /* Pods_RiveAnimation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1868A3CBD19A6EAFBA11976 /* Pods_RiveAnimation.framework */; };
+		7F11D200286C7A6500544073 /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F11D1FF286C7A6500544073 /* TabBar.swift */; };
 		7F589BAC285893E2005ED6AE /* CustomFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F589BAB285893E2005ED6AE /* CustomFont.swift */; };
 		7F589BB028589B1F005ED6AE /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F589BAF28589B1F005ED6AE /* SignInView.swift */; };
 		7F6A94662859D5CB00F45F99 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F6A94652859D5CB00F45F99 /* CustomTextField.swift */; };
@@ -32,6 +33,7 @@
 
 /* Begin PBXFileReference section */
 		0C2D2196B7D575F8B59C109B /* Pods-RiveAnimation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RiveAnimation.release.xcconfig"; path = "Target Support Files/Pods-RiveAnimation/Pods-RiveAnimation.release.xcconfig"; sourceTree = "<group>"; };
+		7F11D1FF286C7A6500544073 /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
 		7F589BA828588D9C005ED6AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		7F589BAB285893E2005ED6AE /* CustomFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomFont.swift; sourceTree = "<group>"; };
 		7F589BAF28589B1F005ED6AE /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
@@ -79,9 +81,18 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		7F11D1FE286C7A5600544073 /* Tabbar */ = {
+			isa = PBXGroup;
+			children = (
+				7F11D1FF286C7A6500544073 /* TabBar.swift */,
+			);
+			path = Tabbar;
+			sourceTree = "<group>";
+		};
 		7F589BAD28589AF8005ED6AE /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				7F11D1FE286C7A5600544073 /* Tabbar */,
 				7F589BAE28589B07005ED6AE /* Signin */,
 			);
 			path = Modules;
@@ -313,6 +324,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7F11D200286C7A6500544073 /* TabBar.swift in Sources */,
 				7FDFFD53284E45C400BDC636 /* OnBoardingView.swift in Sources */,
 				7F589BAC285893E2005ED6AE /* CustomFont.swift in Sources */,
 				7F6A94662859D5CB00F45F99 /* CustomTextField.swift in Sources */,

@@ -27,7 +27,7 @@ struct OnBoardingView: View {
                 .ignoresSafeArea()
             
             if showModal {
-                SignInView()
+                SignInView(showModal: $showModal)
                     .transition(.move(edge: .bottom).combined(with: .opacity))
                     .overlay(
                         Button {
